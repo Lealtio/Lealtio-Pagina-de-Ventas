@@ -34,6 +34,7 @@ import {
   Smartphone,
   SlidersHorizontal,
   TrendingUp,
+  Repeat2,
 
 
 } from "lucide-react";
@@ -484,34 +485,43 @@ function Problem() {
       />
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2 lg:gap-20">
-          <div className="order-1 lg:order-2 lg:py-4">
+          <div className="order-1 text-left lg:order-2 lg:py-4">
             <SectionTag>El problema</SectionTag>
             <h2 className="mt-6 text-4xl font-black leading-tight sm:text-5xl">
               Deja de perder clientes que{" "}
               <span className="text-brand-gradient">ya conquistaste.</span>
             </h2>
-            <p className="mt-6 text-xl text-foreground">
+            <p className="mt-6 text-lg leading-relaxed text-foreground sm:text-xl">
               ¿Cuántos te compraron una sola vez este mes… y no volviste a
               saber de ellos?
             </p>
 
-            <div className="my-8 max-w-2xl text-center sm:text-left">
-              <p className="text-xl leading-relaxed text-foreground">
-                Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
-                uno.{" "}
-                <span className="font-semibold text-[#5b21b6]">
-                  Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
+            <div className="my-8 max-w-2xl space-y-5 text-lg leading-relaxed text-foreground sm:text-xl">
+              <p className="flex items-start gap-3">
+                <Coins aria-hidden="true" className="mt-1.5 h-4 w-4 shrink-0 text-[#5b21b6]" />
+                <span className="min-w-0">
+                  Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
+                  uno.{" "}
+                  <span className="font-semibold text-[#5b21b6]">
+                    Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
+                  </span>
                 </span>
               </p>
-              <p className="mt-4 text-xl leading-relaxed text-foreground">
-                Mientras la renta y los sueldos siguen corriendo, él puede estar
-                comprando en otro lugar.
+              <p className="flex items-start gap-3">
+                <Wallet aria-hidden="true" className="mt-1.5 h-4 w-4 shrink-0 text-[#5b21b6]" />
+                <span className="min-w-0">
+                  Mientras la renta y los sueldos siguen corriendo, él puede estar
+                  comprando en otro lugar.
+                </span>
               </p>
-              <p className="mt-4 text-xl leading-relaxed text-foreground">
-                Ahora toca gastar para atraer a otro…{" "}
-                <span className="font-semibold text-[#5b21b6]">
-                  que también podría comprar una vez, desaparecer y obligarte a
-                  gastar de nuevo.
+              <p className="flex items-start gap-3">
+                <Repeat2 aria-hidden="true" className="mt-1.5 h-4 w-4 shrink-0 text-[#5b21b6]" />
+                <span className="min-w-0">
+                  Ahora toca gastar para atraer a otro…{" "}
+                  <span className="font-semibold text-[#5b21b6]">
+                    que también podría comprar una vez, desaparecer y obligarte a
+                    gastar de nuevo.
+                  </span>
                 </span>
               </p>
             </div>
