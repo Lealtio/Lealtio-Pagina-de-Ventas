@@ -491,17 +491,28 @@ function Problem() {
               <span className="text-brand-gradient">ya conquistaste.</span>
             </h2>
             <p className="mt-6 text-xl text-foreground">
-              ¿Cuántos te compraron una sola vez este mes... y no volviste a
+              ¿Cuántos te compraron una sola vez este mes… y no volviste a
               saber de ellos?
             </p>
 
             <div className="my-8 max-w-2xl text-center sm:text-left">
               <p className="text-xl leading-relaxed text-foreground">
-                <span className="font-semibold text-destructive">Ese cliente no fue gratis.</span>{" "}
-                Pagaste por conseguirlo, con publicidad, con promociones, con tiempo, y ahora tienes que volver a pagar por otro igual, mientras el primero ya ni te recuerda.
+                Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
+                uno.{" "}
+                <span className="font-semibold text-destructive">
+                  Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
+                </span>
               </p>
               <p className="mt-4 text-xl leading-relaxed text-foreground">
-                Y así, mes tras mes: cazando clientes nuevos para reemplazar a los que se fueron, sin construir nada que se quede.
+                Mientras la renta y los sueldos siguen corriendo, él puede estar
+                comprando en otro lugar.
+              </p>
+              <p className="mt-4 text-xl leading-relaxed text-foreground">
+                Ahora toca gastar para atraer a otro…{" "}
+                <span className="font-semibold text-destructive">
+                  que también podría comprar una vez, desaparecer y obligarte a
+                  gastar de nuevo.
+                </span>
               </p>
             </div>
           </div>
@@ -638,10 +649,6 @@ function Solution() {
             <span className="text-brand-gradient">clientes que vuelven</span>{" "}
             sin que tengas que rogarles
           </h2>
-          <p className="mx-auto mt-6 max-w-2xl text-center text-xl leading-relaxed text-white/80">
-            Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
-            uno. Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
-          </p>
         </div>
 
       <div className="relative mt-14 grid grid-cols-1 gap-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
