@@ -196,6 +196,7 @@ function Hero() {
           <SocialProof />
           <div className="mt-6">
             <TrustLine
+              className="sm:mx-0 sm:justify-start"
               items={[
                 "Cancela cuando quieras",
                 "Sin descargar apps",
