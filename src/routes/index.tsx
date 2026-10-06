@@ -640,10 +640,7 @@ function Solution() {
           </h2>
           <p className="mx-auto mt-6 max-w-2xl text-center text-xl leading-relaxed text-white/80">
             Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
-            uno. Por eso duele tanto atraerlo, venderle… y verlo desaparecer.{" "}
-            <span className="font-semibold text-white">
-              Lealtio convierte esa primera compra en muchas más.
-            </span>
+            uno. Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
           </p>
         </div>
 
@@ -704,12 +701,11 @@ function Solution() {
             <p className="flex items-start gap-3">
               <Crown className="mt-1.5 h-4 w-4 shrink-0 text-primary" />
               <span>
-                Lealtio es el programa de lealtad digital que da a tus clientes
+                Lealtio es tu programa de lealtad digital que da a tus clientes
                 una poderosa{" "}
                 <span className="text-brand-gradient font-semibold">
                   razón para volver
-                </span>{" "}
-                , comprar otra vez y seguir dejando dinero a tu negocio{" "}
+                </span>,{" "}
                 <span className="font-semibold text-white">
                   sin tener que perseguirlos
                 </span>
@@ -721,14 +717,12 @@ function Solution() {
               <Smartphone className="mt-1.5 h-4 w-4 shrink-0 text-brand-cyan" />
               <span>
                 Después de comprar, tu cliente recibe en su celular una tarjeta
-                digital donde suma puntos o sellos hasta ganar una recompensa. Así,
-                cada compra deja un{" "}
+                de lealtad donde suma puntos o sellos hasta ganar la recompensa{" "}
                 <span className="font-semibold text-white">
-                  motivo irresistible de regresar
-                </span>{" "}
-                … y convierte{" "}
+                  que elijas
+                </span>. Así,{" "}
                 <span className="text-brand-gradient font-semibold">
-                  compradores ocasionales en clientes recurrentes
+                  conviertes compradores ocasionales en clientes recurrentes
                 </span>
                 .
               </span>
@@ -737,14 +731,14 @@ function Solution() {
             <p className="flex items-start gap-3">
               <TrendingUp className="mt-1.5 h-4 w-4 shrink-0 text-white" />
               <span>
-                Así construyes lo que realmente quieres:{" "}
+                Y construyes lo que realmente quieres:{" "}
                 <span className="text-brand-gradient font-semibold">
-                  clientes que vuelven solos
+                  clientes que vuelven solos una y otra vez
                 </span>{" "}
-                una y otra vez,{" "}
-                <span className="font-semibold text-white">más ventas</span>{" "}
-                entrando a tu negocio y una menor necesidad de conseguir clientes
-                nuevos para seguir creciendo.
+                y siguen dejando{" "}
+                <span className="font-semibold text-white">dinero a tu negocio</span>,
+                con una menor necesidad de conseguir clientes nuevos para seguir
+                creciendo.
               </span>
             </p>
           </div>
