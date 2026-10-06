@@ -499,7 +499,7 @@ function Problem() {
               <p className="text-xl leading-relaxed text-foreground">
                 Conseguir un cliente nuevo cuesta hasta 5 veces más que conservar
                 uno.{" "}
-                <span className="font-semibold text-destructive">
+                <span className="text-brand-gradient font-semibold">
                   Por eso duele tanto atraerlo, venderle… y verlo desaparecer.
                 </span>
               </p>
@@ -509,7 +509,7 @@ function Problem() {
               </p>
               <p className="mt-4 text-xl leading-relaxed text-foreground">
                 Ahora toca gastar para atraer a otro…{" "}
-                <span className="font-semibold text-destructive">
+                <span className="text-brand-gradient font-semibold">
                   que también podría comprar una vez, desaparecer y obligarte a
                   gastar de nuevo.
                 </span>
