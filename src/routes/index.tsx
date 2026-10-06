@@ -197,9 +197,8 @@ function Hero() {
           <div className="mt-6">
             <TrustLine
               items={[
-                "Se activa en menos de 10 minutos",
                 "Cancela cuando quieras",
-                "Sin letras chiquitas",
+                "Sin descargar apps",
               ]}
             />
           </div>
